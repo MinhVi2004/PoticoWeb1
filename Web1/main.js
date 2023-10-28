@@ -9,7 +9,6 @@ var modal_bill_detail = document.getElementById('modal-billDetail');
 var sectionStranger = document.getElementById('stranger-page');
 var sectionUser = document.getElementById('user-page')
 var sectionCart = document.getElementById('user-cart-page');
-window.location.href = 'index.html';
 function showSectionStranger() {
       localStorage.removeItem('userlogin');
       sectionCart.style.display = 'none';
